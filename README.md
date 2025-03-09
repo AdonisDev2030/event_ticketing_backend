@@ -50,7 +50,7 @@ With Mau, you can deploy your application in just a few clicks, allowing you to 
 
 ## get all events
 
-
+```
 query {
   getAllEvents {
     id
@@ -63,10 +63,11 @@ query {
     image
   }
 }
-
+```
 
 ## get single event
 
+```
 query {
   getEvent(id: "event_id_here") {
     id
@@ -79,3 +80,4 @@ query {
     image
   }
 }
+```
